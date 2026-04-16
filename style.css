@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO SECTION */
+.hero{
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1{
+  font-size: 60px;
+}
+
+.hero p{
+  font-size: 20px;
+  margin: 10px 0;
+  color: #cbd5e1;
+}
+
+/* BUTTON */
+.btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background: white;
+  color: black;
+}
+
+/* SECTIONS */
+section{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* ABOUT */
+.about p{
+  max-width: 600px;
+  margin: auto;
+  color: #cbd5e1;
+}
+
+/* PROJECT GRID */
+.grid{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* CARD DESIGN */
+.card{
+  background: #1e293b;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  transition: 0.3s;
+  color: white;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  background: #334155;
+}
+
+/* CONTACT */
+.contact p{
+  color: #cbd5e1;
+}
+
+/* FOOTER */
+footer{
+  background: #0f172a;
+  color: #94a3b8;
+  padding: 20px;
+}
